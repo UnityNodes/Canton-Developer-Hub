@@ -29,8 +29,6 @@ This guide provides everything you need to build privacy-focused applications on
 - **dApp Development Kit**: [splice-wallet-kernel](https://github.com/hyperledger-labs/splice-wallet-kernel/tree/main)
   - [dApp API Spec](https://github.com/hyperledger-labs/splice-wallet-kernel/blob/main/api-specs/openrpc-dapp-api.json)
   - [dApp SDK](https://github.com/hyperledger-labs/splice-wallet-kernel/tree/main/sdk/dapp-sdk)
-  - [Wallet Gateway](https://github.com/hyperledger-labs/splice-wallet-kernel/tree/main/wallet-gateway/remote)
-
 
 ## Network 
 
@@ -48,17 +46,8 @@ This guide provides everything you need to build privacy-focused applications on
 ## Wallet Integration
 ![Community](https://img.shields.io/badge/Community-D5A5E3)
 
-### Console Wallet
-
-- **Website**: [consolewallet.io](https://consolewallet.io/)
-- **SDK**: [@console-wallet/dapp-sdk](https://www.npmjs.com/package/@console-wallet/dapp-sdk)
-- **Request Access Code**: [Apply Here](https://dhllqipiptx.typeform.com/to/sKaHBZfL)
-
-### Loop Wallet
-
-- **Website**: [cantonloop.com](https://cantonloop.com/)
-- **SDK Documentation**: [docs.fivenorth.io/loop-sdk/overview](https://docs.fivenorth.io/loop-sdk/overview/)
-- **Request Access Code**: Join [Discord #eth-denver](https://discord.com/invite/HMy2hQZySN) channel
+### Wallets
+- Check [Here](https://www.cantonecosystem.com/)
 
 ### Identity Verification
 
