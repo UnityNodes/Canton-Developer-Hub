@@ -15,6 +15,11 @@ This guide provides everything you need to build privacy-focused applications on
 
 ## Development Tools
 
+### AI / Claude Tool
+
+- **MCP Plugin**: [github.com/Jatinp26/Build-on-Canton-MCP](https://github.com/Jatinp26/Build-on-Canton-MCP) 
+This Local MCP Integration provides a curated, remotely updated knowledge base covering Canton's Dev Stack and Guide Devs using Claude 0 to 100.
+
 ### Smart Contract Development
 
 - **DPM Framework**: [github.com/digital-asset/dpm](https://github.com/digital-asset/dpm)  
