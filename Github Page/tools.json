@@ -4,7 +4,7 @@
     "maker": "Digital Asset / Canton Foundation",
     "type": "official",
     "category": "Getting Started",
-    "desc": "The authoritative technical docs for Canton Network — Ledger API, Daml language, participant node setup, Canton Coin, Splice APIs, and more.",
+    "desc": "The unified new technical docs for Canton Network.",
     "links": [
       { "label": "docs.canton.network", "url": "https://docs.canton.network" }
     ],
@@ -36,7 +36,7 @@
     "maintained_by": "Community"
   },
   {
-    "name": "DPM — Daml Package Manager",
+    "name": "DPM: Daml Package Manager",
     "maker": "Digital Asset / Canton Foundation",
     "type": "official",
     "category": "Smart Contract Dev",
@@ -53,8 +53,10 @@
     "maker": "Digital Asset / Canton Foundation",
     "type": "official",
     "category": "Smart Contract Dev",
-    "desc": "VS Code extension for Daml — syntax highlighting, type checking, inline diagnostics, and code navigation. Installed automatically with DPM. Requires VS Code 1.87+.",
-    "links": [],
+    "desc": "VS Code extension for Daml syntax highlighting, type checking, inline diagnostics, and code navigation. Installed automatically with DPM. Requires VS Code 1.87+.",
+    "links": [
+      { "label": "Extension", "url": "https://marketplace.visualstudio.com/items?itemName=DigitalAssetHoldingsLLC.daml" }
+    ],
     "daml_sdk_version": null,
     "maintained_by": "Digital Asset / Canton Foundation"
   },
@@ -87,7 +89,7 @@
     "maker": "IntellectEU / Catalyx",
     "type": "partner",
     "category": "Smart Contract Dev",
-    "desc": "Visual explorer for Canton tokenization workflows — useful for prototyping how tokenised assets flow across Canton participants without building everything from scratch.",
+    "desc": "Visual explorer for Canton tokenization workflows useful for prototyping how tokenised assets flow across Canton participants without building everything from scratch.",
     "links": [
       { "label": "Explorer", "url": "https://tokenization.catalyst.intellecteu.com/" }
     ],
@@ -123,7 +125,7 @@
     "maker": "Digital Asset / Canton Foundation",
     "type": "official",
     "category": "Local Dev",
-    "desc": "Full Canton Network in Docker Compose — 3 validators, synchronizer, Canton Coin wallets, PQS, Keycloak, and Scan UI — all on your laptop. No DevNet whitelisting needed.",
+    "desc": "Full Canton Network in Docker Compose with 3 validators, synchronizer, Canton Coin wallets, PQS, Keycloak, and Scan UI. All on your laptop. No DevNet whitelisting needed.",
     "links": [
       { "label": "Repo", "url": "https://github.com/digital-asset/cn-quickstart" },
       { "label": "Guide", "url": "./LocalNet_Deployment_Guide.md" }
@@ -148,7 +150,7 @@
     "maker": "5North",
     "type": "partner",
     "category": "Local Dev",
-    "desc": "Cloud platform for coding, building, deploying, and managing Daml smart contracts — all without local setup. A hosted alternative to the LocalNet toolchain.",
+    "desc": "Cloud platform for coding, building, deploying, and managing Daml smart contracts, all without local setup. A hosted alternative to the LocalNet toolchain.",
     "links": [
       { "label": "seaport.to", "url": "https://seaport.to/" }
     ],
@@ -172,7 +174,7 @@
     "maker": "Digital Asset / Canton Foundation",
     "type": "official",
     "category": "SDKs",
-    "desc": "TypeScript library for programmatic wallet operations on Canton — party management, token transfers, UTXO queries, transaction signing, and third-party dApp integration.",
+    "desc": "TypeScript library for programmatic wallet operations on Canton i.e party management, token transfers, UTXO queries, transaction signing, and third-party dApp integration.",
     "links": [
       { "label": "Docs", "url": "https://docs.canton.network/sdks-tools/sdks/wallet-sdk" }
     ],
@@ -196,7 +198,7 @@
     "maker": "Noders",
     "type": "partner",
     "category": "SDKs",
-    "desc": "Comprehensive Go SDK for Canton/Daml ledgers — Ledger API client, service abstractions, type-safe code generator from .dar files, and a separate Splice Amulet wallet SDK.",
+    "desc": "Comprehensive Go SDK for Canton/Daml ledgers including Ledger API client, service abstractions, type-safe code generator from .dar files, and a separate Splice Amulet wallet SDK.",
     "links": [
       { "label": "Ledger SDK", "url": "https://github.com/noders-team/go-daml" },
       { "label": "Wallet SDK", "url": "https://github.com/noders-team/go-wallet-daml" }
@@ -221,7 +223,7 @@
     "maker": "Digital Asset / Canton Foundation",
     "type": "official",
     "category": "APIs",
-    "desc": "HTTP/JSON interface to the Canton Ledger API. Submit commands, query active contracts, and stream events — all over standard HTTP. Easiest integration path without gRPC.",
+    "desc": "HTTP/JSON interface to the Canton Ledger API. Submit commands, query active contracts, and stream events. All over standard HTTP. Easiest integration path without gRPC.",
     "links": [
       { "label": "Docs", "url": "https://docs.digitalasset.com/build/3.4/quickstart/operate/json-api.html" }
     ],
@@ -245,7 +247,7 @@
     "maker": "Digital Asset / Canton Foundation",
     "type": "official",
     "category": "APIs",
-    "desc": "Read-only API for network-level Canton data — mining rounds, Canton Coin supply, featured apps, and DSO governance state. Public read API for the Global Synchronizer.",
+    "desc": "Read-only API for network-level Canton data: mining rounds, Canton Coin supply, featured apps, and DSO governance state. Public read API for the Global Synchronizer.",
     "links": [
       { "label": "Docs", "url": "https://docs.sync.global" }
     ],
@@ -281,7 +283,7 @@
     "maker": "HydraX",
     "type": "partner",
     "category": "APIs",
-    "desc": "REST APIs for tokenisation utilities on Canton — asset issuance, transfer, and custody workflows. Targeted at institutions building tokenised asset infrastructure. Paid service.",
+    "desc": "REST APIs for tokenisation utilities on Canton i.e asset issuance, transfer, and custody workflows. Targeted at institutions building tokenised asset infrastructure. Paid service.",
     "links": [
       { "label": "Pricing & Access", "url": "https://metra.sg/pricing/" }
     ],
@@ -289,7 +291,7 @@
     "maintained_by": "HydraX"
   },
   {
-    "name": "PQS — Participant Query Store",
+    "name": "PQS: Participant Query Store",
     "maker": "Digital Asset / Canton Foundation",
     "type": "official",
     "category": "Data & Indexing",
@@ -318,7 +320,7 @@
     "maker": "CantonLoop",
     "type": "partner",
     "category": "Data & Indexing",
-    "desc": "Community-built Canton Network explorer — an alternative view into network activity and transactions.",
+    "desc": "Community-built Canton Network explorer, an alternative view into network activity and transactions.",
     "links": [
       { "label": "lighthouse.cantonloop.com", "url": "https://lighthouse.cantonloop.com" }
     ],
@@ -330,7 +332,7 @@
     "maker": "Canton Ecosystem",
     "type": "partner",
     "category": "Wallet Integration",
-    "desc": "Growing ecosystem of wallets — retail, enterprise, self-custody, and custodial — supporting Canton Network assets and Canton Coin.",
+    "desc": "Growing ecosystem of wallets: retail, enterprise, self-custody, and custodial for supporting Canton Network assets and Canton Coin.",
     "links": [
       { "label": "cantonecosystem.com", "url": "https://www.cantonecosystem.com/" }
     ],
@@ -378,7 +380,7 @@
     "maker": "5North",
     "type": "partner",
     "category": "Identity",
-    "desc": "Identity verification SDK for Canton applications. Integrates tamper-proof KYC/identity checks — relevant for regulated industries where user identity verification is a requirement.",
+    "desc": "Identity verification SDK for Canton applications. Integrates tamper-proof KYC/identity checks, relevant for regulated industries where user identity verification is a requirement.",
     "links": [
       { "label": "Docs", "url": "https://docs.fivenorth.io/id-sdk/introduction/" }
     ],

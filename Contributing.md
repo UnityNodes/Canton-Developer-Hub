@@ -10,7 +10,6 @@ There are two ways to contribute depending on what you want to do:
 | Add/update a tool's entry in the markdown [Dev Tooling Guide](./Canton%20Dev%20Toolings%20Guide.md) | Open an **Issue** in this Repo with or Make a PR adding the Respective Tool's Details |
 | Report a broken link or outdated info | Open an **Issue** with the Tool and Source of claim. |
 
-
 ## Info on Adding a Tool to the frontend Catalogue Page (PR to `tools.json`)
 
 The filterable page at the Developer Hub is powered entirely by `tools.json` in the root of this repo. To get your tool listed, add a new entry to that file and open a PR.
