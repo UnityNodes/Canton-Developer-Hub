@@ -20,7 +20,7 @@ A curated catalogue of tools, SDKs, APIs, and infrastructure available for build
 
 **What it is:** A TL;DR overview of all the APIs available for building on Canton: Ledger API, JSON API, Admin API, Scan API, Validator API, and Wallet API. Start here to understand which API you need for what.
 
-**Link:** [docs.digitalasset.com/build/3.4/overview/tldr.html#canton-network-apis](https://docs.digitalasset.com/build/3.4/overview/tldr.html#canton-network-apis)
+**Link:** [docs.canton.network/sdks-tools/api-reference/](https://docs.canton.network/sdks-tools/api-reference/)
 
 ### Canton 101
 ![Community](https://img.shields.io/badge/Community-Canton_Partner-D5A5E3)
@@ -48,12 +48,14 @@ dpm studio        # open project in VS Code with Daml extension
 
 - **Repo:** [github.com/digital-asset/dpm](https://github.com/digital-asset/dpm)  
 
-- **Docs:** [docs.digitalasset.com/build/3.4/dpm](https://docs.digitalasset.com/build/3.4/dpm/)
+- **Docs:** [docs.canton.network/sdks-tools/cli-tools/dpm](https://docs.canton.network/sdks-tools/cli-tools/dpm)
 
 ### Daml Studio (VS Code Extension)
 ![Official](https://img.shields.io/badge/Official-Digital_Asset-blue)
 
 **What it is:** The VS Code extension for Daml development. Gives you syntax highlighting, type checking, inline error diagnostics, and code navigation directly in your editor. Installed automatically when you install DPM. Launch it with `dpm studio` from your project directory.
+
+**Link:** [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=DigitalAssetHoldingsLLC.daml)
 
 **Requires:** VS Code 1.87 or above
 
@@ -107,7 +109,7 @@ dpm studio        # open project in VS Code with Daml extension
 
 - **Repo:** [github.com/digital-asset/cn-quickstart](https://github.com/digital-asset/cn-quickstart)  
 
-- **Guide:** See [LocalNet Deployment Guide](./LocalNet_Deployment_Guide.md), a walkthrough specifically for hackathon and bootcamp builders.
+- **Guide:** See [LocalNet Deployment Guide](./cn_quickstart%20LocalNet%20Deployment%20Setup%20Guide.md), a walkthrough specifically for hackathon and bootcamp builders.
 
 
 ### Canton Sandbox (via DPM)
@@ -126,8 +128,7 @@ dpm sandbox
 
 **What it is:** A cloud-based platform for coding, building, deploying, and managing Daml smart contracts, all in one place, without local setup. If you don't want to install the Daml SDK, Docker, and the whole local toolchain, Seaport gives you a managed environment from development through to production.
 
-**Link:** [seaport.to](https://seaport.to/)
-
+**Link:** [devnet.seaport.to](https://devnet.seaport.to/)
 
 ## Language SDKs & Client Libraries
 
@@ -154,24 +155,28 @@ dpm sandbox
 
 **What it is:** An HTTP/JSON interface to the Canton Ledger API. Submit commands (create contracts, exercise choices), query active contracts, and stream events all over standard HTTP. The easiest way to integrate a backend or test scripts with Canton without setting up gRPC.
 
-**Docs:** [docs.digitalasset.com/build/3.4/quickstart/operate/json-api.html](https://docs.digitalasset.com/build/3.4/quickstart/operate/json-api.html)
+**Docs:** [docs.canton.network/sdks-tools/api-reference/json-api](https://docs.canton.network/sdks-tools/api-reference/json-api)
 
 ### gRPC Ledger API
 ![Official](https://img.shields.io/badge/Official-Digital_Asset-blue)
 
 **What it is:** The full Ledger API over gRPC/Protobuf. More powerful and higher-performance than the JSON API. Required for production backends and streaming event subscriptions. Use code generation (`dpm codegen-java` or `dpm codegen-js`) to get typed client bindings.
 
+**Docs:** [docs.canton.network/sdks-tools/api-reference/ledger-api-services](https://docs.canton.network/sdks-tools/api-reference/ledger-api-services)
+
 ### Scan API
 ![Official](https://img.shields.io/badge/Official-Digital_Asset-blue)
 
 **What it is:** A read-only API for querying network level Canton data, mining rounds, Canton Coin supply, featured apps, and DSO governance state. Think of it as a public read API for the Global Synchronizer.
 
-**Docs:** [docs.sync.global](https://docs.sync.global)
+**Docs:** [docs.canton.network/sdks-tools/api-reference/splice-scan-api](https://docs.canton.network/sdks-tools/api-reference/splice-scan-api)
 
 ### Validator API
 ![Official](https://img.shields.io/badge/Official-Digital_Asset-blue)
 
 **What it is:** REST APIs exposed by each validator node for wallet operations, traffic management, party onboarding, and Canton Coin transfers. This is what the wallet UIs talk to under the hood.
+
+**Docs:** [docs.canton.network/sdks-tools/api-reference/splice-validator-api](https://docs.canton.network/sdks-tools/api-reference/splice-validator-api)
 
 ## Data Explorer & Indexing
 
@@ -182,7 +187,7 @@ dpm sandbox
 
 **When to use it:** Complex contract queries, reporting, dashboards, anything where the Ledger API's streaming model is too limited.
 
-**Docs:** [docs.digitalasset.com/build/3.4/pqs](https://docs.digitalasset.com/build/3.4/pqs/)
+**Docs:** [docs.canton.network/sdks-tools/development-tools/pqs](https://docs.canton.network/sdks-tools/development-tools/pqs)
 
 ### CCView Explorer & Indexing API by PixelPlex
 ![Community](https://img.shields.io/badge/Community-Canton_Partner-D5A5E3)

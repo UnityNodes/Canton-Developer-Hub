@@ -83,7 +83,7 @@ Done Coding your Daml contracts and a `.dar` file via `dpm` ? Go straight to eit
 
 Starting from scratch?
 
-1. Install DPM: [docs.digitalasset.com/build/3.4/dpm](https://docs.digitalasset.com/build/3.4/dpm/)
+1. Install DPM: [docs.canton.network/sdks-tools/cli-tools/dpm](https://docs.canton.network/sdks-tools/cli-tools/dpm)
 2. Scaffold a project: `dpm new <PROJECT NAME> --template empty-skeleton`
 3. Write your Daml contracts, build with `dpm build` and test with `dpm test`
 4. Use **[Canton Builder Tool](https://github.com/Jatinp26/Canton-DevRel-Tool)** or Follow the **[cn_quickstart LocalNet Deployment Guide](./cn_quickstart%20LocalNet%20Deployment%20Setup%20Guide.md)** to deploy
