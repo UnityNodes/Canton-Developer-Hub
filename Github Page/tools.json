@@ -149,7 +149,7 @@
     "name": "Seaport",
     "maker": "5North",
     "type": "partner",
-    "category": "Local Dev",
+    "category": "Smart Contract Dev",
     "desc": "Cloud platform for coding, building, deploying, and managing Daml smart contracts, all without local setup. A hosted alternative to the LocalNet toolchain.",
     "links": [
       { "label": "seaport.to", "url": "https://devnet.seaport.to/" }
